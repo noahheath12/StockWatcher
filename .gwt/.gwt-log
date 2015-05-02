@@ -1,0 +1,908 @@
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2693 units from cache.
+Compiling...
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   80% complete (ETR: 1 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 8.69 seconds
+Validating units:
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/editor/client/EditorDriver.java'
+      Line 20: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 97: ConstraintViolation cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/editor/client/impl/AbstractSimpleBeanEditorDriver.java'
+      Line 28: Name clash: The method setConstraintViolations(Iterable<ConstraintViolation<?>>) of type BaseEditorDriver<T,E> has the same erasure as setConstraintViolations(Iterable<ConstraintViolation<?>>) of type EditorDriver<T> but does not override it
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/editor/client/impl/BaseEditorDriver.java'
+      Line 31: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 66: ConstraintViolation cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/editor/client/impl/SimpleViolation.java'
+      Line 25: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 40: ConstraintViolation cannot be resolved to a type
+      Line 43: ConstraintViolation cannot be resolved to a type
+      Line 44: ConstraintViolation cannot be resolved to a type
+      Line 49: ConstraintViolation cannot be resolved to a type
+      Line 49: ConstraintViolation cannot be resolved to a type
+      Line 70: ConstraintViolation cannot be resolved to a type
+      Line 72: ConstraintViolation cannot be resolved to a type
+      Line 73: ConstraintViolation cannot be resolved to a type
+      Line 78: ConstraintViolation cannot be resolved to a type
+      Line 83: ConstraintViolation cannot be resolved to a type
+      Line 92: ConstraintViolation cannot be resolved to a type
+      Line 97: ConstraintViolation cannot be resolved to a type
+      Line 102: ConstraintViolation cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/editor/client/testing/MockSimpleBeanEditorDriver.java'
+      Line 26: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 35: The type MockSimpleBeanEditorDriver<T,E> must implement the inherited abstract method EditorDriver<T>.setConstraintViolations(Iterable<ConstraintViolation<?>>)
+      Line 107: Name clash: The method setConstraintViolations(Iterable<ConstraintViolation<?>>) of type MockSimpleBeanEditorDriver<T,E> has the same erasure as setConstraintViolations(Iterable<ConstraintViolation<?>>) of type EditorDriver<T> but does not override it
+      Line 108: ConstraintViolation cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/AbstractGwtValidatorFactory.java'
+      Line 22: The import javax.validation.ConstraintValidatorFactory cannot be resolved
+      Line 24: The import javax.validation.TraversableResolver cannot be resolved
+      Line 25: The import javax.validation.Validator cannot be resolved
+      Line 26: The import javax.validation.ValidatorContext cannot be resolved
+      Line 27: The import javax.validation.ValidatorFactory cannot be resolved
+      Line 56: ValidatorFactory cannot be resolved to a type
+      Line 57: ConstraintValidatorFactory cannot be resolved to a type
+      Line 59: TraversableResolver cannot be resolved to a type
+      Line 74: ConstraintValidatorFactory cannot be resolved to a type
+      Line 74: The method getConstraintValidatorFactory() of type AbstractGwtValidatorFactory must override or implement a supertype method
+      Line 75: ConstraintValidatorFactory cannot be resolved to a type
+      Line 79: The method getMessageInterpolator() of type AbstractGwtValidatorFactory must override or implement a supertype method
+      Line 84: TraversableResolver cannot be resolved to a type
+      Line 84: The method getTraversableResolver() of type AbstractGwtValidatorFactory must override or implement a supertype method
+      Line 85: TraversableResolver cannot be resolved to a type
+      Line 89: Validator cannot be resolved to a type
+      Line 89: The method getValidator() of type AbstractGwtValidatorFactory must override or implement a supertype method
+      Line 91: The method getConstraintValidatorFactory() from the type AbstractGwtValidatorFactory refers to the missing type ConstraintValidatorFactory
+      Line 92: The method getTraversableResolver() from the type AbstractGwtValidatorFactory refers to the missing type TraversableResolver
+      Line 97: ConstraintValidatorFactory cannot be resolved to a type
+      Line 98: The method getConstraintValidatorFactory() from the type ConfigurationState refers to the missing type ConstraintValidatorFactory
+      Line 99: ConstraintValidatorFactory cannot be resolved to a type
+      Line 101: ConstraintValidatorFactory cannot be resolved to a type
+      Line 101: The method create(Class<?>) from the type GWT refers to the missing type ConstraintValidatorFactory
+      Line 101: ConstraintValidatorFactory cannot be resolved to a type
+      Line 102: TraversableResolver cannot be resolved to a type
+      Line 102: The method getTraversableResolver() from the type ConfigurationState refers to the missing type TraversableResolver
+      Line 103: TraversableResolver cannot be resolved to a type
+      Line 116: The method unwrap(Class<T>) of type AbstractGwtValidatorFactory must override or implement a supertype method
+      Line 121: ValidatorContext cannot be resolved to a type
+      Line 121: The method usingContext() of type AbstractGwtValidatorFactory must override or implement a supertype method
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/BaseMessageInterpolator.java'
+      Line 114: The method getConstraintDescriptor() from the type MessageInterpolator.Context refers to the missing type ConstraintDescriptor
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/DefaultTraversableResolver.java'
+      Line 20: The import javax.validation.Path cannot be resolved
+      Line 21: The import javax.validation.Path cannot be resolved
+      Line 22: The import javax.validation.TraversableResolver cannot be resolved
+      Line 27: TraversableResolver cannot be resolved to a type
+      Line 31: Node cannot be resolved to a type
+      Line 32: Path cannot be resolved to a type
+      Line 38: Node cannot be resolved to a type
+      Line 39: Path cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/GwtConstraintValidatorFactory.java'
+      Line 18: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 19: The import javax.validation.ConstraintValidatorFactory cannot be resolved
+      Line 27: ConstraintValidatorFactory cannot be resolved to a type
+      Line 35: ConstraintValidator cannot be resolved to a type
+      Line 35: The method getInstance(Class<T>) of type GwtConstraintValidatorFactory must override or implement a supertype method
+      Line 37: ConstraintValidatorFactory cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/GwtValidation.java'
+      Line 25: The import javax.validation.groups cannot be resolved
+      Line 101: Default cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/GwtValidationProviderResolver.java'
+      Line 24: The import javax.validation.ValidationProviderResolver cannot be resolved
+      Line 25: The import javax.validation.spi.ValidationProvider cannot be resolved
+      Line 32: ValidationProviderResolver cannot be resolved to a type
+      Line 34: ValidationProvider cannot be resolved to a type
+      Line 35: The method createValidationProviderList() from the type GwtValidationProviderResolver refers to the missing type ValidationProvider
+      Line 37: ValidationProvider cannot be resolved to a type
+      Line 38: ValidationProvider cannot be resolved to a type
+      Line 38: ValidationProvider cannot be resolved to a type
+      Line 39: ValidationProvider cannot be resolved to a type
+      Line 39: The method create(Class<?>) from the type GWT refers to the missing type ValidationProvider
+      Line 39: ValidationProvider cannot be resolved to a type
+      Line 45: ValidationProvider cannot be resolved to a type
+      Line 45: The method getValidationProviders() of type GwtValidationProviderResolver must override or implement a supertype method
+      Line 46: ValidationProvider cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/AbstractDecimalMaxValidator.java'
+      Line 20: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 21: The import javax.validation.constraints.DecimalMax cannot be resolved
+      Line 31: ConstraintValidator cannot be resolved to a type
+      Line 31: DecimalMax cannot be resolved to a type
+      Line 40: DecimalMax cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/AbstractDecimalMinValidator.java'
+      Line 20: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 21: The import javax.validation.constraints.DecimalMin cannot be resolved
+      Line 30: ConstraintValidator cannot be resolved to a type
+      Line 30: DecimalMin cannot be resolved to a type
+      Line 35: DecimalMin cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/AbstractDigitsValidator.java'
+      Line 20: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 21: The import javax.validation.constraints.Digits cannot be resolved
+      Line 30: ConstraintValidator cannot be resolved to a type
+      Line 30: Digits cannot be resolved to a type
+      Line 36: Digits cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/AbstractMaxValidator.java'
+      Line 21: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 22: The import javax.validation.constraints.Max cannot be resolved
+      Line 30: ConstraintValidator cannot be resolved to a type
+      Line 30: Max cannot be resolved to a type
+      Line 35: Max cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/AbstractMinValidator.java'
+      Line 21: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 22: The import javax.validation.constraints.Min cannot be resolved
+      Line 30: ConstraintValidator cannot be resolved to a type
+      Line 30: Min cannot be resolved to a type
+      Line 35: Min cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/AbstractSizeValidator.java'
+      Line 18: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 19: The import javax.validation.constraints.Size cannot be resolved
+      Line 27: ConstraintValidator cannot be resolved to a type
+      Line 27: Size cannot be resolved to a type
+      Line 37: Size cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/AssertFalseValidator.java'
+      Line 18: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 19: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 20: The import javax.validation.constraints.AssertFalse cannot be resolved
+      Line 26: ConstraintValidator cannot be resolved to a type
+      Line 26: AssertFalse cannot be resolved to a type
+      Line 29: AssertFalse cannot be resolved to a type
+      Line 33: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/AssertTrueValidator.java'
+      Line 18: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 19: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 20: The import javax.validation.constraints.AssertTrue cannot be resolved
+      Line 26: ConstraintValidator cannot be resolved to a type
+      Line 26: AssertTrue cannot be resolved to a type
+      Line 29: AssertTrue cannot be resolved to a type
+      Line 33: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/DecimalMaxValidatorForNumber.java'
+      Line 21: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 27: The hierarchy of the type DecimalMaxValidatorForNumber is inconsistent
+      Line 31: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/DecimalMaxValidatorForString.java'
+      Line 20: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 26: The hierarchy of the type DecimalMaxValidatorForString is inconsistent
+      Line 30: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/DecimalMinValidatorForNumber.java'
+      Line 21: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 27: The hierarchy of the type DecimalMinValidatorForNumber is inconsistent
+      Line 31: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/DecimalMinValidatorForString.java'
+      Line 20: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 26: The hierarchy of the type DecimalMinValidatorForString is inconsistent
+      Line 30: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/DigitsValidatorForNumber.java'
+      Line 21: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 27: The hierarchy of the type DigitsValidatorForNumber is inconsistent
+      Line 31: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/DigitsValidatorForString.java'
+      Line 20: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 26: The hierarchy of the type DigitsValidatorForString is inconsistent
+      Line 30: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/FutureValidatorForDate.java'
+      Line 20: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 21: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 22: The import javax.validation.constraints.Future cannot be resolved
+      Line 29: ConstraintValidator cannot be resolved to a type
+      Line 29: Future cannot be resolved to a type
+      Line 32: Future cannot be resolved to a type
+      Line 36: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/MaxValidatorForNumber.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type MaxValidatorForNumber is inconsistent
+      Line 27: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/MaxValidatorForString.java'
+      Line 20: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 26: The hierarchy of the type MaxValidatorForString is inconsistent
+      Line 29: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/MinValidatorForNumber.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type MinValidatorForNumber is inconsistent
+      Line 27: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/MinValidatorForString.java'
+      Line 20: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 26: The hierarchy of the type MinValidatorForString is inconsistent
+      Line 29: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/NotGwtCompatibleValidator.java'
+      Line 20: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 21: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 31: ConstraintValidator cannot be resolved to a type
+      Line 34: The method initialize(A) of type NotGwtCompatibleValidator<A,T> must override or implement a supertype method
+      Line 41: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/NotNullValidator.java'
+      Line 18: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 19: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 20: The import javax.validation.constraints.NotNull cannot be resolved
+      Line 26: ConstraintValidator cannot be resolved to a type
+      Line 26: NotNull cannot be resolved to a type
+      Line 29: NotNull cannot be resolved to a type
+      Line 33: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/NullValidator.java'
+      Line 18: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 19: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 20: The import javax.validation.constraints.Null cannot be resolved
+      Line 25: ConstraintValidator cannot be resolved to a type
+      Line 25: Null cannot be resolved to a type
+      Line 28: Null cannot be resolved to a type
+      Line 32: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/PastValidatorForDate.java'
+      Line 20: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 21: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 22: The import javax.validation.constraints.Past cannot be resolved
+      Line 28: ConstraintValidator cannot be resolved to a type
+      Line 28: Past cannot be resolved to a type
+      Line 31: Past cannot be resolved to a type
+      Line 35: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/PatternValidator.java'
+      Line 21: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 22: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 33: ConstraintValidator cannot be resolved to a type
+      Line 37: The method initialize(Pattern) of type PatternValidator must override or implement a supertype method
+      Line 47: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForArrayOfBoolean.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForArrayOfBoolean is inconsistent
+      Line 29: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForArrayOfByte.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForArrayOfByte is inconsistent
+      Line 28: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForArrayOfChar.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForArrayOfChar is inconsistent
+      Line 28: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForArrayOfDouble.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForArrayOfDouble is inconsistent
+      Line 29: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForArrayOfFloat.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForArrayOfFloat is inconsistent
+      Line 28: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForArrayOfInt.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForArrayOfInt is inconsistent
+      Line 28: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForArrayOfLong.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForArrayOfLong is inconsistent
+      Line 28: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForArrayOfObject.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForArrayOfObject is inconsistent
+      Line 29: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForArrayOfShort.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForArrayOfShort is inconsistent
+      Line 28: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForCollection.java'
+      Line 20: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 26: The hierarchy of the type SizeValidatorForCollection is inconsistent
+      Line 31: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForMap.java'
+      Line 20: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 26: The hierarchy of the type SizeValidatorForMap is inconsistent
+      Line 30: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/constraints/SizeValidatorForString.java'
+      Line 18: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 24: The hierarchy of the type SizeValidatorForString is inconsistent
+      Line 27: ConstraintValidatorContext cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/AbstractGwtSpecificValidator.java'
+      Line 34: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 35: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 37: The import javax.validation.ValidationException cannot be resolved
+      Line 38: The import javax.validation.groups cannot be resolved
+      Line 85: ConstraintViolation cannot be resolved to a type
+      Line 97: The method checkDefaultGroupSequenceIsExpandable(List<Class<?>>) from the type GroupChain refers to the missing type GroupDefinitionException
+      Line 99: The method validateGroups(GwtValidationContext<T>, GroupValidator, GroupChain) from the type AbstractGwtSpecificValidator<G> refers to the missing type ConstraintViolation
+      Line 102: ValidationException cannot be resolved to a type
+      Line 105: ValidationException cannot be resolved to a type
+      Line 110: ConstraintViolation cannot be resolved to a type
+      Line 114: ValidationException cannot be resolved to a type
+      Line 118: The method validateGroups(GwtValidationContext<T>, GroupValidator, GroupChain) from the type AbstractGwtSpecificValidator<G> refers to the missing type ConstraintViolation
+      Line 121: ValidationException cannot be resolved to a type
+      Line 124: ValidationException cannot be resolved to a type
+      Line 130: ConstraintViolation cannot be resolved to a type
+      Line 135: ValidationException cannot be resolved to a type
+      Line 139: The method validateGroups(GwtValidationContext<T>, GroupValidator, GroupChain) from the type AbstractGwtSpecificValidator<G> refers to the missing type ConstraintViolation
+      Line 142: ValidationException cannot be resolved to a type
+      Line 145: ValidationException cannot be resolved to a type
+      Line 153: Default cannot be resolved to a type
+      Line 159: ConstraintViolation cannot be resolved to a type
+      Line 162: The method createConstraintValidatorContext(ConstraintDescriptor<A>) from the type GwtValidationContext<T> refers to the missing type ConstraintDescriptor
+      Line 176: ConstraintViolation cannot be resolved to a type
+      Line 177: ConstraintValidator cannot be resolved to a type
+      Line 181: The method createConstraintValidatorContext(ConstraintDescriptor<A>) from the type GwtValidationContext<T> refers to the missing type ConstraintDescriptor
+      Line 190: The method getConstraints(ValidationGroupsMetadata) from the type GwtSpecificValidator<G> refers to the missing type ValidationException
+      Line 190: The method getElementClass() is undefined for the type GwtBeanDescriptor<G>
+      Line 208: ConstraintViolation cannot be resolved to a type
+      Line 213: ConstraintViolation cannot be resolved to a type
+      Line 213: The method createConstraintViolation(GwtValidationContext<T>, G, V, ConstraintDescriptorImpl<A>, MessageAndPath) from the type AbstractGwtSpecificValidator<G> refers to the missing type ConstraintViolation
+      Line 232: ConstraintViolation cannot be resolved to a type
+      Line 237: The constructor MessageInterpolatorContextImpl(ConstraintDescriptor<?>, Object) refers to the missing type ConstraintDescriptor
+      Line 241: ConstraintViolation cannot be resolved to a type
+      Line 242: The method setConstraintDescriptor(ConstraintDescriptor<?>) from the type ConstraintViolationImpl.Builder<T> refers to the missing type ConstraintDescriptor
+      Line 247: The method getPath() from the type MessageAndPath refers to the missing type Path
+      Line 266: ConstraintViolation cannot be resolved to a type
+      Line 271: ConstraintViolation cannot be resolved to a type
+      Line 271: ConstraintViolation cannot be resolved to a type
+      Line 293: The type AbstractGwtSpecificValidator<G>.ClassGroupValidator must implement the inherited abstract method GroupValidator.validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...)
+      Line 301: Name clash: The method validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...) of type AbstractGwtSpecificValidator<G>.ClassGroupValidator has the same erasure as validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...) of type GroupValidator but does not override it
+      Line 301: The method validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...) of type AbstractGwtSpecificValidator<G>.ClassGroupValidator must override or implement a supertype method
+      Line 302: ConstraintViolation cannot be resolved to a type
+      Line 307: The type AbstractGwtSpecificValidator<G>.PropertyGroupValidator must implement the inherited abstract method GroupValidator.validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...)
+      Line 317: Name clash: The method validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...) of type AbstractGwtSpecificValidator<G>.PropertyGroupValidator has the same erasure as validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...) of type GroupValidator but does not override it
+      Line 317: The method validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...) of type AbstractGwtSpecificValidator<G>.PropertyGroupValidator must override or implement a supertype method
+      Line 318: ConstraintViolation cannot be resolved to a type
+      Line 323: The type AbstractGwtSpecificValidator<G>.ValueGroupValidator must implement the inherited abstract method GroupValidator.validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...)
+      Line 335: Name clash: The method validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...) of type AbstractGwtSpecificValidator<G>.ValueGroupValidator has the same erasure as validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...) of type GroupValidator but does not override it
+      Line 335: The method validateGroups(GwtValidationContext<T>, Set<ConstraintViolation<T>>, Group...) of type AbstractGwtSpecificValidator<G>.ValueGroupValidator must override or implement a supertype method
+      Line 336: ConstraintViolation cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/AbstractGwtValidator.java'
+      Line 24: The import javax.validation.ConstraintValidatorFactory cannot be resolved
+      Line 25: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 27: The import javax.validation.TraversableResolver cannot be resolved
+      Line 28: The import javax.validation.ValidationException cannot be resolved
+      Line 29: The import javax.validation.Validator cannot be resolved
+      Line 36: Validator cannot be resolved to a type
+      Line 40: ConstraintValidatorFactory cannot be resolved to a type
+      Line 42: TraversableResolver cannot be resolved to a type
+      Line 64: ConstraintValidatorFactory cannot be resolved to a type
+      Line 66: TraversableResolver cannot be resolved to a type
+      Line 67: ConstraintValidatorFactory cannot be resolved to a type
+      Line 69: TraversableResolver cannot be resolved to a type
+      Line 73: The method unwrap(Class<T>) of type AbstractGwtValidator must override or implement a supertype method
+      Line 74: ValidationException cannot be resolved to a type
+      Line 77: ConstraintViolation cannot be resolved to a type
+      Line 79: ValidationException cannot be resolved to a type
+      Line 99: ConstraintValidatorFactory cannot be resolved to a type
+      Line 100: ConstraintValidatorFactory cannot be resolved to a type
+      Line 107: TraversableResolver cannot be resolved to a type
+      Line 108: TraversableResolver cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/BaseGwtConfiguration.java'
+      Line 27: The import javax.validation.ConstraintValidatorFactory cannot be resolved
+      Line 29: The import javax.validation.TraversableResolver cannot be resolved
+      Line 30: The import javax.validation.ValidatorFactory cannot be resolved
+      Line 31: The import javax.validation.spi.BootstrapState cannot be resolved
+      Line 40: BootstrapState cannot be resolved to a type
+      Line 42: ConstraintValidatorFactory cannot be resolved to a type
+      Line 44: TraversableResolver cannot be resolved to a type
+      Line 47: BootstrapState cannot be resolved to a type
+      Line 49: BootstrapState cannot be resolved to a type
+      Line 59: ValidatorFactory cannot be resolved to a type
+      Line 61: ConstraintValidatorFactory cannot be resolved to a type
+      Line 64: TraversableResolver cannot be resolved to a type
+      Line 65: The method buildValidatorFactory(ConfigurationState) from the type GwtValidationProvider refers to the missing type ValidatorFactory
+      Line 74: ConstraintValidatorFactory cannot be resolved to a type
+      Line 75: ConstraintValidatorFactory cannot be resolved to a type
+      Line 80: ConstraintValidatorFactory cannot be resolved to a type
+      Line 81: The method create(Class<?>) from the type GWT refers to the missing type ConstraintValidatorFactory
+      Line 81: ConstraintValidatorFactory cannot be resolved to a type
+      Line 90: TraversableResolver cannot be resolved to a type
+      Line 109: TraversableResolver cannot be resolved to a type
+      Line 110: TraversableResolver cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/ConstraintDescriptorImpl.java'
+      Line 26: The import javax.validation.ConstraintValidator cannot be resolved
+      Line 27: The import javax.validation.Payload cannot be resolved
+      Line 28: The import javax.validation.metadata cannot be resolved
+      Line 36: ConstraintDescriptor cannot be resolved to a type
+      Line 46: Payload cannot be resolved to a type
+      Line 47: ConstraintValidator cannot be resolved to a type
+      Line 49: ConstraintDescriptor cannot be resolved to a type
+      Line 50: ConstraintDescriptor cannot be resolved to a type
+      Line 56: ConstraintDescriptor cannot be resolved to a type
+      Line 57: ConstraintDescriptor cannot be resolved to a type
+      Line 65: Payload cannot be resolved to a type
+      Line 66: ConstraintValidator cannot be resolved to a type
+      Line 68: ConstraintDescriptor cannot be resolved to a type
+      Line 85: ConstraintValidator cannot be resolved to a type
+      Line 86: ConstraintValidator cannot be resolved to a type
+      Line 92: ConstraintValidator cannot be resolved to a type
+      Line 93: ConstraintValidator cannot be resolved to a type
+      Line 117: Payload cannot be resolved to a type
+      Line 118: The method setPayload(Class<? extends Payload>[]) from the type ConstraintDescriptorImpl.Builder<T> refers to the missing type Payload
+      Line 118: Payload cannot be resolved to a type
+      Line 122: Payload cannot be resolved to a type
+      Line 123: Payload cannot be resolved to a type
+      Line 139: Payload cannot be resolved to a type
+      Line 140: ConstraintValidator cannot be resolved to a type
+      Line 142: ConstraintDescriptor cannot be resolved to a type
+      Line 150: Payload cannot be resolved to a type
+      Line 151: ConstraintValidator cannot be resolved to a type
+      Line 153: ConstraintDescriptor cannot be resolved to a type
+      Line 160: Payload cannot be resolved to a type
+      Line 161: ConstraintValidator cannot be resolved to a type
+      Line 163: ConstraintDescriptor cannot be resolved to a type
+      Line 170: The method getAnnotation() of type ConstraintDescriptorImpl<T> must override or implement a supertype method
+      Line 175: The method getAttributes() of type ConstraintDescriptorImpl<T> must override or implement a supertype method
+      Line 180: ConstraintDescriptor cannot be resolved to a type
+      Line 180: The method getComposingConstraints() of type ConstraintDescriptorImpl<T> must override or implement a supertype method
+      Line 181: ConstraintDescriptor cannot be resolved to a type
+      Line 185: ConstraintValidator cannot be resolved to a type
+      Line 185: The method getConstraintValidatorClasses() of type ConstraintDescriptorImpl<T> must override or implement a supertype method
+      Line 186: ConstraintValidator cannot be resolved to a type
+      Line 198: The method getGroups() of type ConstraintDescriptorImpl<T> must override or implement a supertype method
+      Line 203: Payload cannot be resolved to a type
+      Line 203: The method getPayload() of type ConstraintDescriptorImpl<T> must override or implement a supertype method
+      Line 204: Payload cannot be resolved to a type
+      Line 208: The method isReportAsSingleViolation() of type ConstraintDescriptorImpl<T> must override or implement a supertype method
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/ConstraintFinderImpl.java'
+      Line 30: The import javax.validation.groups cannot be resolved
+      Line 31: The import javax.validation.metadata cannot be resolved
+      Line 32: The import javax.validation.metadata cannot be resolved
+      Line 33: The import javax.validation.metadata cannot be resolved
+      Line 38: ConstraintFinder cannot be resolved to a type
+      Line 63: ConstraintFinder cannot be resolved to a type
+      Line 63: The method declaredOn(ElementType...) of type ConstraintFinderImpl must override or implement a supertype method
+      Line 70: ConstraintDescriptor cannot be resolved to a type
+      Line 70: The method getConstraintDescriptors() of type ConstraintFinderImpl must override or implement a supertype method
+      Line 77: ConstraintDescriptor cannot be resolved to a type
+      Line 77: ConstraintDescriptor cannot be resolved to a type
+      Line 83: The method hasConstraints() of type ConstraintFinderImpl must override or implement a supertype method
+      Line 84: The method getConstraintDescriptors() from the type ConstraintFinderImpl refers to the missing type ConstraintDescriptor
+      Line 88: ConstraintFinder cannot be resolved to a type
+      Line 88: Scope cannot be resolved to a type
+      Line 89: Scope cannot be resolved to a variable
+      Line 96: ConstraintFinder cannot be resolved to a type
+      Line 96: The method unorderedAndMatchingGroups(Class<?>...) of type ConstraintFinderImpl must override or implement a supertype method
+      Line 99: Default cannot be resolved to a type
+      Line 110: ConstraintDescriptor cannot be resolved to a type
+      Line 120: ConstraintDescriptor cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/ConstraintValidatorContextImpl.java'
+      Line 24: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 25: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 26: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 27: The import javax.validation.ConstraintValidatorContext cannot be resolved
+      Line 28: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 29: The import javax.validation.metadata cannot be resolved
+      Line 41: ConstraintValidatorContext cannot be resolved to a type
+      Line 47: ConstraintViolationBuilder cannot be resolved to a type
+      Line 64: ConstraintValidatorContext cannot be resolved to a type
+      Line 64: The method addConstraintViolation() of type ConstraintValidatorContextImpl<A,T>.ConstraintViolationBuilderImpl must override or implement a supertype method
+      Line 65: The constructor MessageAndPath(Path, String) refers to the missing type Path
+      Line 70: NodeBuilderDefinedContext cannot be resolved to a type
+      Line 70: The method addNode(String) of type ConstraintValidatorContextImpl<A,T>.ConstraintViolationBuilderImpl must override or implement a supertype method
+      Line 80: NodeBuilderCustomizableContext cannot be resolved to a type
+      Line 94: ConstraintValidatorContext cannot be resolved to a type
+      Line 94: The method addConstraintViolation() of type ConstraintValidatorContextImpl<A,T>.NodeBuilderCustomizableContextImpl must override or implement a supertype method
+      Line 99: NodeBuilderCustomizableContext cannot be resolved to a type
+      Line 99: The method addNode(String) of type ConstraintValidatorContextImpl<A,T>.NodeBuilderCustomizableContextImpl must override or implement a supertype method
+      Line 104: NodeContextBuilder cannot be resolved to a type
+      Line 104: The method inIterable() of type ConstraintValidatorContextImpl<A,T>.NodeBuilderCustomizableContextImpl must override or implement a supertype method
+      Line 113: NodeBuilderDefinedContext cannot be resolved to a type
+      Line 127: ConstraintValidatorContext cannot be resolved to a type
+      Line 127: The method addConstraintViolation() of type ConstraintValidatorContextImpl<A,T>.NodeBuilderDefinedContextImpl must override or implement a supertype method
+      Line 128: The constructor MessageAndPath(Path, String) refers to the missing type Path
+      Line 133: NodeBuilderCustomizableContext cannot be resolved to a type
+      Line 133: The method addNode(String) of type ConstraintValidatorContextImpl<A,T>.NodeBuilderDefinedContextImpl must override or implement a supertype method
+      Line 142: NodeContextBuilder cannot be resolved to a type
+      Line 158: ConstraintValidatorContext cannot be resolved to a type
+      Line 158: The method addConstraintViolation() of type ConstraintValidatorContextImpl<A,T>.NodeContextBuilderImpl must override or implement a supertype method
+      Line 163: NodeBuilderCustomizableContext cannot be resolved to a type
+      Line 163: The method addNode(String) of type ConstraintValidatorContextImpl<A,T>.NodeContextBuilderImpl must override or implement a supertype method
+      Line 169: NodeBuilderDefinedContext cannot be resolved to a type
+      Line 169: The method atIndex(Integer) of type ConstraintValidatorContextImpl<A,T>.NodeContextBuilderImpl must override or implement a supertype method
+      Line 175: NodeBuilderDefinedContext cannot be resolved to a type
+      Line 175: The method atKey(Object) of type ConstraintValidatorContextImpl<A,T>.NodeContextBuilderImpl must override or implement a supertype method
+      Line 182: ConstraintDescriptor cannot be resolved to a type
+      Line 185: ConstraintViolation cannot be resolved to a type
+      Line 185: ConstraintViolation cannot be resolved to a type
+      Line 189: ConstraintDescriptor cannot be resolved to a type
+      Line 192: ConstraintDescriptor cannot be resolved to a type
+      Line 196: ConstraintViolationBuilder cannot be resolved to a type
+      Line 196: The method buildConstraintViolationWithTemplate(String) of type ConstraintValidatorContextImpl<A,T> must override or implement a supertype method
+      Line 204: The method disableDefaultConstraintViolation() of type ConstraintValidatorContextImpl<A,T> must override or implement a supertype method
+      Line 209: The method getDefaultConstraintMessageTemplate() of type ConstraintValidatorContextImpl<A,T> must override or implement a supertype method
+      Line 210: ConstraintDescriptor cannot be resolved to a type
+      Line 215: The constructor MessageAndPath(Path, String) refers to the missing type Path
+      Line 221: ConstraintViolation cannot be resolved to a type
+      Line 222: ConstraintViolation cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/ConstraintViolationImpl.java'
+      Line 21: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 22: The import javax.validation.Path cannot be resolved
+      Line 23: The import javax.validation.metadata cannot be resolved
+      Line 30: ConstraintViolation cannot be resolved to a type
+      Line 44: Path cannot be resolved to a type
+      Line 47: ConstraintDescriptor cannot be resolved to a type
+      Line 51: Path cannot be resolved to a type
+      Line 52: ConstraintDescriptor cannot be resolved to a type
+      Line 56: ConstraintDescriptor cannot be resolved to a type
+      Line 57: ConstraintDescriptor cannot be resolved to a type
+      Line 86: Path cannot be resolved to a type
+      Line 87: Path cannot be resolved to a type
+      Line 113: Path cannot be resolved to a type
+      Line 116: ConstraintDescriptor cannot be resolved to a type
+      Line 129: Path cannot be resolved to a type
+      Line 131: ConstraintDescriptor cannot be resolved to a type
+      Line 138: Path cannot be resolved to a type
+      Line 141: ConstraintDescriptor cannot be resolved to a type
+      Line 154: Path cannot be resolved to a type
+      Line 154: Path cannot be resolved to a type
+      Line 155: Path cannot be resolved to a type
+      Line 155: Path cannot be resolved to a type
+      Line 164: ConstraintDescriptor cannot be resolved to a type
+      Line 164: The method getConstraintDescriptor() of type ConstraintViolationImpl<T> must override or implement a supertype method
+      Line 165: ConstraintDescriptor cannot be resolved to a type
+      Line 169: The method getInvalidValue() of type ConstraintViolationImpl<T> must override or implement a supertype method
+      Line 174: The method getLeafBean() of type ConstraintViolationImpl<T> must override or implement a supertype method
+      Line 179: The method getMessage() of type ConstraintViolationImpl<T> must override or implement a supertype method
+      Line 184: The method getMessageTemplate() of type ConstraintViolationImpl<T> must override or implement a supertype method
+      Line 189: Path cannot be resolved to a type
+      Line 189: The method getPropertyPath() of type ConstraintViolationImpl<T> must override or implement a supertype method
+      Line 190: Path cannot be resolved to a type
+      Line 194: The method getRootBean() of type ConstraintViolationImpl<T> must override or implement a supertype method
+      Line 199: The method getRootBeanClass() of type ConstraintViolationImpl<T> must override or implement a supertype method
+      Line 206: Path cannot be resolved to a type
+      Line 206: Path cannot be resolved to a type
+      Line 220: Path cannot be resolved to a type
+      Line 222: ConstraintDescriptor cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/Group.java'
+      Line 18: The import javax.validation.groups cannot be resolved
+      Line 84: Default cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/GroupChain.java'
+      Line 25: The import javax.validation.GroupDefinitionException cannot be resolved
+      Line 26: The import javax.validation.groups cannot be resolved
+      Line 47: GroupDefinitionException cannot be resolved to a type
+      Line 54: The method ensureDefaultGroupSequenceIsExpandable(List<Group>, List<Group>, int) from the type GroupChain refers to the missing type GroupDefinitionException
+      Line 103: Default cannot be resolved to a type
+      Line 108: GroupDefinitionException cannot be resolved to a type
+      Line 111: Default cannot be resolved to a type
+      Line 127: GroupDefinitionException cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/GroupChainGenerator.java'
+      Line 27: The import javax.validation.GroupDefinitionException cannot be resolved
+      Line 28: The import javax.validation.ValidationException cannot be resolved
+      Line 60: ValidationException cannot be resolved to a type
+      Line 92: GroupDefinitionException cannot be resolved to a type
+      Line 103: GroupDefinitionException cannot be resolved to a type
+      Line 154: GroupDefinitionException cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/GroupValidator.java'
+      Line 21: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 36: ConstraintViolation cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/GwtBeanDescriptor.java'
+      Line 20: The import javax.validation.metadata cannot be resolved
+      Line 28: BeanDescriptor cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/GwtBeanDescriptorImpl.java'
+      Line 28: The import javax.validation.metadata cannot be resolved
+      Line 29: The import javax.validation.metadata cannot be resolved
+      Line 38: The hierarchy of the type GwtBeanDescriptorImpl is inconsistent
+      Line 111: ConstraintFinder cannot be resolved to a type
+      Line 111: The method findConstraints() of type GwtBeanDescriptorImpl<T> must override or implement a supertype method
+      Line 116: PropertyDescriptor cannot be resolved to a type
+      Line 116: The method getConstrainedProperties() of type GwtBeanDescriptorImpl<T> must override or implement a supertype method
+      Line 121: The constructor HashSet<PropertyDescriptor>(Collection<PropertyDescriptorImpl>) is undefined
+      Line 121: PropertyDescriptor cannot be resolved to a type
+      Line 125: ConstraintDescriptor cannot be resolved to a type
+      Line 125: The method getConstraintDescriptors() of type GwtBeanDescriptorImpl<T> must override or implement a supertype method
+      Line 126: The method findConstraints() from the type GwtBeanDescriptorImpl<T> refers to the missing type ConstraintFinder
+      Line 130: PropertyDescriptor cannot be resolved to a type
+      Line 130: The method getConstraintsForProperty(String) of type GwtBeanDescriptorImpl<T> must override or implement a supertype method
+      Line 139: The method getElementClass() of type GwtBeanDescriptorImpl<T> must override or implement a supertype method
+      Line 145: The method hasConstraints() of type GwtBeanDescriptorImpl<T> must override or implement a supertype method
+      Line 150: The method isBeanConstrained() of type GwtBeanDescriptorImpl<T> must override or implement a supertype method
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/GwtSpecificValidator.java'
+      Line 23: The import javax.validation.ConstraintViolation cannot be resolved
+      Line 24: The import javax.validation.ValidationException cannot be resolved
+      Line 45: ConstraintViolation cannot be resolved to a type
+      Line 61: ConstraintViolation cannot be resolved to a type
+      Line 79: ConstraintViolation cannot be resolved to a type
+      Line 100: ValidationException cannot be resolved to a type
+      Line 118: ConstraintViolation cannot be resolved to a type
+      Line 119: ValidationException cannot be resolved to a type
+      Line 132: ConstraintViolation cannot be resolved to a type
+      Line 154: ConstraintViolation cannot be resolved to a type
+      Line 156: ValidationException cannot be resolved to a type
+      Line 170: ConstraintViolation cannot be resolved to a type
+      Line 198: ConstraintViolation cannot be resolved to a type
+      Line 200: ValidationException cannot be resolved to a type
+      Line 217: ConstraintViolation cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/GwtValidationContext.java'
+      Line 23: The import javax.validation.TraversableResolver cannot be resolved
+      Line 24: The import javax.validation.metadata cannot be resolved
+      Line 25: The import javax.validation.metadata cannot be resolved
+      Line 38: BeanDescriptor cannot be resolved to a type
+      Line 43: TraversableResolver cannot be resolved to a type
+      Line 55: BeanDescriptor cannot be resolved to a type
+      Line 56: TraversableResolver cannot be resolved to a type
+      Line 63: BeanDescriptor cannot be resolved to a type
+      Line 64: TraversableResolver cannot be resolved to a type
+      Line 68: BeanDescriptor cannot be resolved to a type
+      Line 70: TraversableResolver cannot be resolved to a type
+      Line 90: BeanDescriptor cannot be resolved to a type
+      Line 90: TraversableResolver cannot be resolved to a type
+      Line 103: BeanDescriptor cannot be resolved to a type
+      Line 103: TraversableResolver cannot be resolved to a type
+      Line 116: BeanDescriptor cannot be resolved to a type
+      Line 116: TraversableResolver cannot be resolved to a type
+      Line 129: BeanDescriptor cannot be resolved to a type
+      Line 129: TraversableResolver cannot be resolved to a type
+      Line 136: ConstraintDescriptor cannot be resolved to a type
+      Line 156: TraversableResolver cannot be resolved to a type
+      Line 157: TraversableResolver cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/GwtValidatorContext.java'
+      Line 20: The import javax.validation.ConstraintValidatorFactory cannot be resolved
+      Line 22: The import javax.validation.TraversableResolver cannot be resolved
+      Line 23: The import javax.validation.Validator cannot be resolved
+      Line 24: The import javax.validation.ValidatorContext cannot be resolved
+      Line 29: ValidatorContext cannot be resolved to a type
+      Line 33: ConstraintValidatorFactory cannot be resolved to a type
+      Line 35: TraversableResolver cannot be resolved to a type
+      Line 37: ConstraintValidatorFactory cannot be resolved to a type
+      Line 39: TraversableResolver cannot be resolved to a type
+      Line 44: ConstraintValidatorFactory cannot be resolved to a type
+      Line 45: The method getConstraintValidatorFactory() from the type AbstractGwtValidatorFactory refers to the missing type ConstraintValidatorFactory
+      Line 46: ConstraintValidatorFactory cannot be resolved to a type
+      Line 47: The method getConstraintValidatorFactory() from the type AbstractGwtValidatorFactory refers to the missing type ConstraintValidatorFactory
+      Line 52: TraversableResolver cannot be resolved to a type
+      Line 52: The method getTraversableResolver() from the type AbstractGwtValidatorFactory refers to the missing type TraversableResolver
+      Line 53: TraversableResolver cannot be resolved to a type
+      Line 53: The method getTraversableResolver() from the type AbstractGwtValidatorFactory refers to the missing type TraversableResolver
+      Line 57: ValidatorContext cannot be resolved to a type
+      Line 58: ConstraintValidatorFactory cannot be resolved to a type
+      Line 60: ConstraintValidatorFactory cannot be resolved to a type
+      Line 60: ConstraintValidatorFactory cannot be resolved to a type
+      Line 62: ConstraintValidatorFactory cannot be resolved to a type
+      Line 68: Validator cannot be resolved to a type
+      Line 68: The method getValidator() of type GwtValidatorContext must override or implement a supertype method
+      Line 70: ConstraintValidatorFactory cannot be resolved to a type
+      Line 71: TraversableResolver cannot be resolved to a type
+      Line 76: ValidatorContext cannot be resolved to a type
+      Line 76: The method messageInterpolator(MessageInterpolator) of type GwtValidatorContext must override or implement a supertype method
+      Line 87: ValidatorContext cannot be resolved to a type
+      Line 88: TraversableResolver cannot be resolved to a type
+      Line 90: TraversableResolver cannot be resolved to a type
+      Line 90: TraversableResolver cannot be resolved to a type
+      Line 92: TraversableResolver cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/MessageInterpolatorContextImpl.java'
+      Line 19: The import javax.validation.metadata cannot be resolved
+      Line 26: ConstraintDescriptor cannot be resolved to a type
+      Line 29: ConstraintDescriptor cannot be resolved to a type
+      Line 30: ConstraintDescriptor cannot be resolved to a type
+      Line 35: ConstraintDescriptor cannot be resolved to a type
+      Line 36: ConstraintDescriptor cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/NodeImpl.java'
+      Line 20: The import javax.validation.Path cannot be resolved
+      Line 25: Node cannot be resolved to a type
+      Line 28: Node cannot be resolved to a type
+      Line 30: Node cannot be resolved to a type
+      Line 34: Node cannot be resolved to a type
+      Line 38: Node cannot be resolved to a type
+      Line 42: Node cannot be resolved to a type
+      Line 76: The method getIndex() of type NodeImpl must override or implement a supertype method
+      Line 81: The method getKey() of type NodeImpl must override or implement a supertype method
+      Line 86: The method getName() of type NodeImpl must override or implement a supertype method
+      Line 102: The method isInIterable() of type NodeImpl must override or implement a supertype method
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/PathImpl.java'
+      Line 23: The import javax.validation.Path cannot be resolved
+      Line 28: Path cannot be resolved to a type
+      Line 32: Node cannot be resolved to a type
+      Line 32: Node cannot be resolved to a type
+      Line 39: Node cannot be resolved to a type
+      Line 39: Node cannot be resolved to a type
+      Line 42: Node cannot be resolved to a type
+      Line 44: Node cannot be resolved to a type
+      Line 44: List<Node> cannot be resolved to a type
+      Line 46: Node cannot be resolved to a type
+      Line 49: Node cannot be resolved to a type
+      Line 50: Node cannot be resolved to a type
+      Line 61: The method createNode(String) from the type NodeImpl refers to the missing type Node
+      Line 73: The method createIndexedNode(String, Integer) from the type NodeImpl refers to the missing type Node
+      Line 84: The method createIterableNode(String) from the type NodeImpl refers to the missing type Node
+      Line 96: The method createKeyedNode(String, Object) from the type NodeImpl refers to the missing type Node
+      Line 108: Node cannot be resolved to a type
+      Line 108: List<Node> cannot be resolved to a type
+      Line 111: Node cannot be resolved to a type
+      Line 112: Node cannot be resolved to a type
+      Line 112: Node cannot be resolved to a type
+      Line 116: Node cannot be resolved to a type
+      Line 116: Node cannot be resolved to a type
+      Line 116: Node cannot be resolved to a type
+      Line 127: Node cannot be resolved to a type
+      Line 131: Node cannot be resolved to a type
+      Line 131: The method iterator() of type PathImpl must override or implement a supertype method
+      Line 132: Node cannot be resolved to a type
+      Line 138: Node cannot be resolved to a type
+      Line 138: Node cannot be resolved to a type
+      Line 148: Node cannot be resolved to a type
+      Line 148: Node cannot be resolved to a type
+      Line 148: Node cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/PropertyDescriptorImpl.java'
+      Line 25: The import javax.validation.metadata cannot be resolved
+      Line 26: The import javax.validation.metadata cannot be resolved
+      Line 31: PropertyDescriptor cannot be resolved to a type
+      Line 62: ConstraintFinder cannot be resolved to a type
+      Line 62: The method findConstraints() of type PropertyDescriptorImpl must override or implement a supertype method
+      Line 67: ConstraintDescriptor cannot be resolved to a type
+      Line 67: The method getConstraintDescriptors() of type PropertyDescriptorImpl must override or implement a supertype method
+      Line 68: The method findConstraints() from the type PropertyDescriptorImpl refers to the missing type ConstraintFinder
+      Line 72: The method getElementClass() of type PropertyDescriptorImpl must override or implement a supertype method
+      Line 77: The method getPropertyName() of type PropertyDescriptorImpl must override or implement a supertype method
+      Line 82: The method hasConstraints() of type PropertyDescriptorImpl must override or implement a supertype method
+      Line 87: The method isCascaded() of type PropertyDescriptorImpl must override or implement a supertype method
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/Validation.java'
+      Line 23: The import javax.validation.ValidationException cannot be resolved
+      Line 24: The import javax.validation.ValidationProviderResolver cannot be resolved
+      Line 25: The import javax.validation.ValidatorFactory cannot be resolved
+      Line 26: The import javax.validation.bootstrap cannot be resolved
+      Line 27: The import javax.validation.bootstrap cannot be resolved
+      Line 28: The import javax.validation.spi.BootstrapState cannot be resolved
+      Line 29: The import javax.validation.spi.ValidationProvider cannot be resolved
+      Line 55: GenericBootstrap cannot be resolved to a type
+      Line 56: BootstrapState cannot be resolved to a type
+      Line 58: ValidationProviderResolver cannot be resolved to a type
+      Line 61: The method configure() of type Validation.GenericGWTBootstrapImpl must override or implement a supertype method
+      Line 62: ValidationProviderResolver cannot be resolved to a type
+      Line 62: The method getDefaultValidationProviderResolver() from the type Validation.GenericGWTBootstrapImpl refers to the missing type ValidationProviderResolver
+      Line 64: ValidationProvider cannot be resolved to a type
+      Line 68: ValidationException cannot be resolved to a type
+      Line 74: ValidationException cannot be resolved to a type
+      Line 82: ValidationException cannot be resolved to a type
+      Line 90: ValidationProviderResolver cannot be resolved to a type
+      Line 90: The method getDefaultValidationProviderResolver() of type Validation.GenericGWTBootstrapImpl must override or implement a supertype method
+      Line 91: ValidationProviderResolver cannot be resolved to a type
+      Line 92: ValidationProviderResolver cannot be resolved to a type
+      Line 92: ValidationProviderResolver cannot be resolved to a type
+      Line 94: ValidationProviderResolver cannot be resolved to a type
+      Line 98: ValidationProviderResolver cannot be resolved to a type
+      Line 98: The method getValidationProviderResolver() of type Validation.GenericGWTBootstrapImpl must override or implement a supertype method
+      Line 99: The method getDefaultValidationProviderResolver() from the type Validation.GenericGWTBootstrapImpl refers to the missing type ValidationProviderResolver
+      Line 108: GenericBootstrap cannot be resolved to a type
+      Line 108: ValidationProviderResolver cannot be resolved to a type
+      Line 128: ValidatorFactory cannot be resolved to a type
+      Line 129: The method byDefaultProvider() from the type Validation refers to the missing type GenericBootstrap
+      Line 147: GenericBootstrap cannot be resolved to a type
+      Line 157: ValidationProvider cannot be resolved to a type
+      Line 158: ProviderSpecificBootstrap cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/metadata/BeanMetadata.java'
+      Line 22: The import javax.validation.groups cannot be resolved
+      Line 36: Default cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/metadata/MessageAndPath.java'
+      Line 18: The import javax.validation.Path cannot be resolved
+      Line 28: Path cannot be resolved to a type
+      Line 30: Path cannot be resolved to a type
+      Line 32: Path cannot be resolved to a type
+      Line 40: Path cannot be resolved to a type
+      Line 41: Path cannot be resolved to a type
+      Line 49: Path cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/impl/metadata/ValidationGroupsMetadata.java'
+      Line 28: The import javax.validation.groups cannot be resolved
+      Line 46: Default cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/spi/BaseConfigurationState.java'
+      Line 21: The import javax.validation.ConstraintValidatorFactory cannot be resolved
+      Line 23: The import javax.validation.TraversableResolver cannot be resolved
+      Line 30: ConstraintValidatorFactory cannot be resolved to a type
+      Line 33: TraversableResolver cannot be resolved to a type
+      Line 36: ConstraintValidatorFactory cannot be resolved to a type
+      Line 39: TraversableResolver cannot be resolved to a type
+      Line 40: ConstraintValidatorFactory cannot be resolved to a type
+      Line 43: TraversableResolver cannot be resolved to a type
+      Line 47: ConstraintValidatorFactory cannot be resolved to a type
+      Line 48: ConstraintValidatorFactory cannot be resolved to a type
+      Line 62: TraversableResolver cannot be resolved to a type
+      Line 63: TraversableResolver cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/client/spi/GwtValidationProvider.java'
+      Line 24: The import javax.validation.ValidatorFactory cannot be resolved
+      Line 25: The import javax.validation.spi.BootstrapState cannot be resolved
+      Line 27: The import javax.validation.spi.ValidationProvider cannot be resolved
+      Line 33: ValidationProvider cannot be resolved to a type
+      Line 36: ValidatorFactory cannot be resolved to a type
+      Line 36: The method buildValidatorFactory(ConfigurationState) of type GwtValidationProvider must override or implement a supertype method
+      Line 38: ValidatorFactory cannot be resolved to a type
+      Line 44: BootstrapState cannot be resolved to a type
+      Line 49: BootstrapState cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/super/com/google/gwt/validation/client/impl/GwtConfiguration.java'
+      Line 20: The import javax.validation.spi.BootstrapState cannot be resolved
+      Line 26: The return types are incompatible for the inherited methods Configuration<BaseGwtConfiguration>.getDefaultConstraintValidatorFactory(), BaseGwtConfiguration.getDefaultConstraintValidatorFactory()
+      Line 26: The return types are incompatible for the inherited methods Configuration<BaseGwtConfiguration>.getDefaultTraversableResolver(), BaseGwtConfiguration.getDefaultTraversableResolver()
+      Line 26: The type GwtConfiguration must implement the inherited abstract method Configuration<BaseGwtConfiguration>.traversableResolver(TraversableResolver)
+      Line 26: The return types are incompatible for the inherited methods Configuration<BaseGwtConfiguration>.buildValidatorFactory(), BaseGwtConfiguration.buildValidatorFactory()
+      Line 26: The type GwtConfiguration must implement the inherited abstract method Configuration<BaseGwtConfiguration>.constraintValidatorFactory(ConstraintValidatorFactory)
+      Line 29: BootstrapState cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/com/google/gwt/validation/super/com/google/gwt/validation/client/spi/GwtConfigurationState.java'
+      Line 21: The import javax.validation.ConstraintValidatorFactory cannot be resolved
+      Line 23: The import javax.validation.TraversableResolver cannot be resolved
+      Line 28: The return types are incompatible for the inherited methods ConfigurationState.getConstraintValidatorFactory(), BaseConfigurationState.getConstraintValidatorFactory()
+      Line 28: The return types are incompatible for the inherited methods ConfigurationState.getTraversableResolver(), BaseConfigurationState.getTraversableResolver()
+      Line 30: ConstraintValidatorFactory cannot be resolved to a type
+      Line 32: TraversableResolver cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/javax/validation/ConstraintViolationException_CustomFieldSerializer.java'
+      Line 28: The type ConstraintViolationException_CustomFieldSerializer must implement the inherited abstract method CustomFieldSerializer<ConstraintViolationException>.deserializeInstance(SerializationStreamReader, ConstraintViolationException)
+      Line 28: The type ConstraintViolationException_CustomFieldSerializer must implement the inherited abstract method CustomFieldSerializer<ConstraintViolationException>.serializeInstance(SerializationStreamWriter, ConstraintViolationException)
+      Line 29: ConstraintViolationException cannot be resolved to a type
+      Line 33: ConstraintViolationException cannot be resolved to a type
+      Line 37: ConstraintViolationException cannot be resolved to a type
+      Line 37: No source code is available for type ConstraintViolationException; did you forget to inherit a required module?
+      Line 41: ConstraintViolation cannot be resolved to a type
+      Line 41: ConstraintViolation cannot be resolved to a type
+      Line 43: ConstraintViolationException cannot be resolved to a type
+      Line 47: ConstraintViolationException cannot be resolved to a type
+      Line 54: ConstraintViolationException cannot be resolved to a type
+      Line 64: ConstraintViolationException cannot be resolved to a type
+      Line 64: No source code is available for type ConstraintViolationException; did you forget to inherit a required module?
+      Line 66: The method instantiate(SerializationStreamReader) from the type ConstraintViolationException_CustomFieldSerializer refers to the missing type ConstraintViolationException
+      Line 71: ConstraintViolationException cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/javax/validation/super/javax/validation/Configuration.java'
+      Line 93: TraversableResolver cannot be resolved to a type
+      Line 105: ConstraintValidatorFactory cannot be resolved to a type
+      Line 182: TraversableResolver cannot be resolved to a type
+      Line 182: No source code is available for type TraversableResolver; did you forget to inherit a required module?
+      Line 194: ConstraintValidatorFactory cannot be resolved to a type
+      Line 194: No source code is available for type ConstraintValidatorFactory; did you forget to inherit a required module?
+      Line 202: ValidatorFactory cannot be resolved to a type
+      Line 202: No source code is available for type ValidatorFactory; did you forget to inherit a required module?
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/javax/validation/super/javax/validation/MessageInterpolator.java'
+      Line 21: The import javax.validation.metadata cannot be resolved
+      Line 66: ConstraintDescriptor cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/javax/validation/super/javax/validation/constraints/Pattern.java'
+      Line 30: The import javax.validation.Constraint cannot be resolved
+      Line 31: The import javax.validation.Payload cannot be resolved
+      Line 49: Constraint cannot be resolved to a type
+      Line 49: The attribute validatedBy is undefined for the annotation type Constraint
+      Line 75: Payload cannot be resolved to a type
+   Errors in 'jar:file:/Users/noahheath/Downloads/gwt-2.6.1/gwt-user.jar!/javax/validation/super/javax/validation/spi/ConfigurationState.java'
+      Line 22: The import javax.validation.ConstraintValidatorFactory cannot be resolved
+      Line 24: The import javax.validation.TraversableResolver cannot be resolved
+      Line 93: ConstraintValidatorFactory cannot be resolved to a type
+      Line 107: TraversableResolver cannot be resolved to a type
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.user.client.ui.UIObject.DebugIdImpl
+   Checking rule <generate-with class='com.google.gwt.editor.rebind.SimpleBeanEditorDriverGenerator'/>
+      [WARN] Detected warnings related to 'com.google.gwt.editor.client.SimpleBeanEditorDriver'.   Are validation-api-<version>.jar and validation-api-<version>-sources.jar on the classpath?
+      Specify -logLevel DEBUG to see all errors.
+      [WARN] Unknown type 'com.google.gwt.editor.client.SimpleBeanEditorDriver' specified in deferred binding rule
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method buttonCellBaseBackground
+         Adding image 'com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Resources.buttonCellBaseBackground'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Template
+         Generating method body for iconContentLayout()
+         Generating method body for iconWrapper()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.resources.client.CommonResources.Bundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
